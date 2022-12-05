@@ -1,17 +1,17 @@
-/********************************************************************
-*	SYX2INS conversion utility   v1.00								*
-*	by Brandon Blume												*
-*	July 11, 2015													*
-*																	*
-*	Command line tool to pull/generate the instrument patch list	*
-*	from a custom MT-32 programmed SYX dump file into 				*
-*	Cakewalk/Sonar's INS format (MIDI instrument list).				*
-*																	*
-*	You're free to do with it as you please. This program could		*
-*	probably be vastly improved to be more efficient, but it works.	*
-*	It's also missing error handling for a couple instances where	*
-*	MIDI command data might not exist partway through the SYX file.	*
-********************************************************************/
+/********************************************************************************
+*	SYX2INS conversion utility   v1.00		    	    		*
+*	by Brandon Blume					    		*
+*	July 11, 2015						    		*
+*								    		*
+*	Command line tool to pull/generate the instrument patch list		*
+*	from a custom MT-32 programmed SYX dump file into 	    		*
+*	Cakewalk/Sonar's INS format (MIDI instrument list).	    		*
+*								    		*
+*	You're free to do with it as you please. This program could 		*
+*	probably be vastly improved to be more efficient, but it works.		*
+*	It's also missing error handling for a couple instances where		*
+*	MIDI command data might not exist partway through the SYX file.		*
+********************************************************************************/
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
